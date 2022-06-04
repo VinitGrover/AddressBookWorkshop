@@ -1,5 +1,8 @@
 package com.bridgelabz;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class AddressBookMain {
     public static void main(String[] args) {
         System.out.println("Welcome to address book program");
@@ -59,7 +62,7 @@ public class AddressBookMain {
         System.out.println(a1.list);
 
         System.out.println("Delete a contact using name " );
-        String name = AddressBook.sc.nextLine();
+        name = AddressBook.sc.nextLine();
 
         int count=0;
 
@@ -71,6 +74,9 @@ public class AddressBookMain {
             count++;
         }
         System.out.println(a1.list);
+
+      
+
 
     }
 }
