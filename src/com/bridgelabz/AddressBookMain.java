@@ -59,7 +59,7 @@ public class AddressBookMain {
         System.out.println(a1.list);
 
         System.out.println("Delete a contact using name " );
-        String name = AddressBook.sc.nextLine();
+        name = AddressBook.sc.nextLine();
 
         int count=0;
 
