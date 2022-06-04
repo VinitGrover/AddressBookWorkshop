@@ -58,7 +58,19 @@ public class AddressBookMain {
 
         System.out.println(a1.list);
 
+        System.out.println("Delete a contact using name " );
+        String name = AddressBook.sc.nextLine();
 
+        int count=0;
+
+        for(Contacts x : a1.list){
+            if(x.getFirstName().equals(name)){
+                a1.list.remove(count);
+                break;
+            }
+            count++;
+        }
+        System.out.println(a1.list);
 
     }
 }
